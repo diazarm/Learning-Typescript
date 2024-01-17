@@ -13,4 +13,9 @@ enum userActions {
     postUser = 'POSTUSER' 
 }
 
-let numberExample : number = null;
+
+let numberExample : number | null = null;
+
+let esString : string = undefined;
+
+numberExample = 
