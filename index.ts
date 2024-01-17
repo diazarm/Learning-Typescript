@@ -15,3 +15,17 @@ enum Fases {
 }
 
 console.log(Fases.Primero);
+
+let variableAny: any = "Hola";
+variableAny = 42; // Sin error, se permite asignar un número
+
+let variableUnknown: unknown = "Hola";
+
+// Se debe verificar el tipo antes de realizar operaciones
+if (typeof variableUnknown === "string") {
+  let longitud: number = variableUnknown.length; // Correcto, ya que se ha verificado el tipo
+  console.log(longitud)
+}
+
+//console.log("sale la ea", variableUnknown );
+

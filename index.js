@@ -9,4 +9,13 @@ var Fases;
     Fases[Fases["Segundo"] = 1] = "Segundo";
     Fases[Fases["Tercero"] = 2] = "Tercero";
 })(Fases || (Fases = {}));
-console.log(Fases.Primero);
+console.log("sale las fases",Fases.Primero);
+var variableAny = "Hola";
+variableAny = 42; // Sin error, se permite asignar un número
+var variableUnknown = "Hola";
+// Se debe verificar el tipo antes de realizar operaciones
+if (typeof variableUnknown === "string") {
+    var longitud = variableUnknown.length; // Correcto, ya que se ha verificado el tipo
+    console.log(longitud);
+}
+console.log("sale la wea", variableUnknown);

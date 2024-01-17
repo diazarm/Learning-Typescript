@@ -16,6 +16,6 @@ enum userActions {
 
 let numberExample : number | null = null;
 
-let esString : string = undefined;
+let esString : string | undefined = undefined;
 
-numberExample = 
+numberExample = 32
