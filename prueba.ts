@@ -12,3 +12,5 @@ enum userActions {
     fetchUser = 'FETCH_USER',  //guardamos variables que podemos usar en redux
     postUser = 'POSTUSER' 
 }
+
+let numberExample : number = null;
