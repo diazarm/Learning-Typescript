@@ -53,3 +53,28 @@ interface Individuo {
   
   console.log(nombreExtraido); // Imprimirá 'John'
   
+  function merge< U extends object, V extends object >( obj1 : U, obj2: V){
+    return { ...obj1, ...obj2}
+  }
+//!lo que logro con esto es que me lo tome el spread operator! (lo de extender a objectos.) 
+  merge({name: 'Franco'}, {age:25});
+  merge({name : 'Franco'}, 25);
+
+  /* Donde se usan las generic functions! 
+  actions en redux, las acciones son funciones genericas
+  axios.post
+  axios.get tambien son funciones genericas
+  response.data ----> informacion de data es T
+  axios.get<Persona>   ---> response.data ---> va a estar Persona, y nos va a dar el tipado
+  useState de react, TAMBIEN utiliza generic functions
+  */
+
+  //! el spread operator no puede aplicar directamente sobre un numero solo porque  se utiliza para descomponer elementos de un objeto o un array
+  const numero = 42;
+  const nuevoNumero = { ...numero }; // Esto generará un error
+
+  //la solucion es:
+  const personita = { nombre: 'Juan', edad: 30 };
+  const nuevaPersona = { ...personita };
+
+  //pero en el caso de las funciones genericas, se extiende el tipado de objeto, entonces toma las propiedades de un objeto.
