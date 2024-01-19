@@ -10,10 +10,10 @@ console.log(color2);  // Imprime: verde
 
 
 //?Desestructuración de objetos
-const personax  = { nombre1: "Juan", edad1: 30, ciudad1: "Madrid" };
+const persona  = { nombre1: "Juan", edad1: 30, ciudad1: "Madrid" };
 
 //Extraer propiedades del objeto
-const { nombre1, edad1 } = personax;
+const { nombre1, edad1 } = persona;
 
 console.log(nombre1);  // Imprime: Juan
 console.log(edad1);    // Imprime: 30
@@ -40,3 +40,6 @@ const masFrutas = ["plátano", "fresa"];
 const todasLasFrutas = [...frutas, ...masFrutas];
 
 console.log(todasLasFrutas);  // Imprime: ["manzana", "pera", "plátano", "fresa"]
+
+
+export {};   //con esto solucionamos el problema del nombre de la variable se repita en otro archivo.

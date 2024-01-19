@@ -1,7 +1,10 @@
 <h1>Repaso de TS</h1>
+
+`Esto es un repaso de Typescript para recordar conceptos basicos`
 <h3>LET, VAR y CONST:</h3>
 
 el hoisting, que es la principal diferencia entre let y var. Además, destacar que const se utiliza para declarar constantes y no puede ser reasignado después de su declaración.
+
 <h3>Interfaces:</h3>
 
 que una interfaz se utiliza para definir la forma de un objeto y su tipado. Es importante destacar que las interfaces también pueden representar contratos para clases, funciones, y objetos en general, no solo para clases.
