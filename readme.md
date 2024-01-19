@@ -1,31 +1,38 @@
-#Repaso de TS
-LET, VAR y CONST:
+<h1>Repaso de TS</h1>
+<h3>LET, VAR y CONST:</h3>
 
-Correcto, mencionaste el hoisting, que es la principal diferencia entre let y var. Además, destacar que const se utiliza para declarar constantes y no puede ser reasignado después de su declaración.
-Interfaces:
+el hoisting, que es la principal diferencia entre let y var. Además, destacar que const se utiliza para declarar constantes y no puede ser reasignado después de su declaración.
+<h3>Interfaces:</h3>
 
-Correcto, mencionaste que una interfaz se utiliza para definir la forma de un objeto y su tipado. Es importante destacar que las interfaces también pueden representar contratos para clases, funciones, y objetos en general, no solo para clases.
-Herencia:
+que una interfaz se utiliza para definir la forma de un objeto y su tipado. Es importante destacar que las interfaces también pueden representar contratos para clases, funciones, y objetos en general, no solo para clases.
+<h3>Herencia:</h3>
 
-Correcto, mencionaste extends, que se utiliza para lograr la herencia entre clases.
-Módulos y Espacios de Nombres:
+extends, que se utiliza para lograr la herencia entre clases.
+<h3>Módulos y Espacios de Nombres:</h3>
 
-Correcto, mencionaste que los espacios de nombres (namespace) se recomiendan evitar en favor de los módulos.
-Tipos Genéricos:
+que los espacios de nombres (namespace) se recomiendan evitar en favor de los módulos.
+<h3>Tipos Genéricos:</h3>
 
-Correcto, mencionaste que los tipos genéricos suelen representarse con T y permiten una mayor flexibilidad y reutilización en las funciones y clases.
-Decoradores:
+que los tipos genéricos suelen representarse con T y permiten una mayor flexibilidad y reutilización en las funciones y clases.
+<h3>Decoradores:</h3>
 
-Correcto, mencionaste que los decoradores agregan funcionalidad especial al código, como metadatos, y se utilizan principalmente en clases y métodos.
-Promesas:
+que los decoradores agregan funcionalidad especial al código, como metadatos, y se utilizan principalmente en clases y métodos.
+<h3>Promesas:</h3>
 
-Correcto, mencionaste then y catch como métodos para manejar las respuestas de una promesa.
-Union Types e Intersection Types:
+then y catch como métodos para manejar las respuestas de una promesa.
+<h3>Union Types e Intersection Types:</h3>
 
-Correcto, mencionaste la diferencia entre union types (OR) y intersection types (AND).
-TypeScript Compiler (TSC):
+la diferencia entre union types (OR) y intersection types (AND).
+<h3>TypeScript Compiler (TSC):</h3>
 
-Correcto, mencionaste que TSC es el compilador de TypeScript, necesario para convertir archivos TypeScript a JavaScript.
-Manejo de Errores:
+que TSC es el compilador de TypeScript, necesario para convertir archivos TypeScript a JavaScript.
+<h3>Manejo de Errores:</h3>
 
-Correcto, mencionaste que el manejo de errores en TypeScript se realiza de manera similar a JavaScript, pero con la ventaja de contar con un sistema de tipos estático para prevenir errores.
+que el manejo de errores en TypeScript se realiza de manera similar a JavaScript, pero con la ventaja de contar con un sistema de tipos estático para prevenir errores.
+
+<h3>Modificadores de Acceso:</h3>
+public permite el acceso libre, private restringe a la clase, y protected permite el acceso a la clase y sus subclases.
+<h3>Tipos de Datos Avanzados:</h3>
+interface define la forma de un objeto, mientras que type permite definir un tipo específico o una unión de tipos.
+<h3>Desestructuración y Rest/Spread:</h3>
+El operador de propagación (spread) y la desestructuración funcionan de manera eficiente, similar a JavaScript, para objetos y arrays.
